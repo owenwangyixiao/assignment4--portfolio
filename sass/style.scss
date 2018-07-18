@@ -28,14 +28,14 @@ h1{
    color: $color-big-o;
 }
 
-.h2 {
+.h2{
    font-size: $h1--fontsize/9;
    font-weight: 600;
-   display: inline-block;
-   text-align: center;
+   float:left;
    position: absolute;
    margin-left: -56.3%;
 }
+
 
 abbr{
    text-decoration: none;
@@ -65,7 +65,15 @@ nav ul li a {
    color: $color-big-o;
 }
 
-header img{
-   position:absolute;
-   display: none;
+nav div{
+   font-size: $h1--fontsize/9;
+   font-weight: 600;
+   color: $color-big-o;
+   font-family: 'Montserrat', sans-serif;
+   position: relative;
+   text-align: center;
+   top:-447px;
+
+
+
 }
