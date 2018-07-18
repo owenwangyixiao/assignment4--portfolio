@@ -1,0 +1,28 @@
+
+
+
+
+
+
+/* header a:hover{
+   display: none;
+} */
+
+a{
+    text-decoration:none;
+}
+/* .label {
+}
+.label.success {
+} */
+
+/* .item a p.new-label span{
+  position: relative;
+  content: 'NEW'
+} */
+.w:hover a p.王 span{
+  display: none;
+}
+.w:hover a p.王:after{
+  content: url(iris.png)'王';
+}
