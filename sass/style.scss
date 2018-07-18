@@ -5,9 +5,35 @@
    padding: 0;
 }
 
+header{
+   float:left;
+   position: relative;
+   left:50%;
+}
+
 h1{
    font-size: $h1--fontsize;
    line-height: 1;
-   margin:auto;
-   text-align: center;
+   // font-family: 'Sree Krushnadevaraya',serif;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 100;
+   line-height: 800px;
+   // display: inline-block;
+   // float: left;
+   position: relative;
+   float:right;
+   left:-50%;
+
+   // text-align: center;
+   color: $color-big-o;
+}
+
+.h2 {
+   font-size: $h1--fontsize/9;
+   font-weight: 600;
+   // display: inline-block;
+   // position: absolute,relative;
+   float: right;
+   position: relative;
+   right:50%;
 }
