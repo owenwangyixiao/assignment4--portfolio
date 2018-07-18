@@ -38,12 +38,12 @@ a:visited{
 
 }
 
-.work:hover ~ .w {
+/* .work:hover ~ .w {
    background-color: #ccc;
    font-size: 10rem;
    margin-right: 1000px;
    margin-top:80px;
-}
+} */
 
 a:active{
 
