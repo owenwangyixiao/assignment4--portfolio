@@ -49,10 +49,7 @@ nav{
 }
 
 .navbar{
-   // position: sticky;
    top: 0px;
-
-   // width: 100%;
 }
 
 nav ul{
@@ -60,7 +57,6 @@ nav ul{
    text-align: center;
    position: relative;
    bottom:40px;
-   // background-color: rgba(233,233,233,0.9);
    border: 15px solid rgb(240,240,240);
    background: rgb(240,240,240);
    border-radius: 120px;
@@ -69,14 +65,18 @@ nav ul{
    width:(10 * $grid--unit);
    margin:auto;
    margin-top:30px;
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: (9.9 * $grid--unit);
+      height:30px;
+   }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: auto;
+      height:20px;
+      padding:0;
+   }
 }
 
-// .shape{
-//    width: 200px;
-//    height: 100px;
-//    background: red;
-//    border-radius: 100px / 50px;
-// }
 
 nav ul li{
    display: inline-block;
@@ -86,10 +86,14 @@ nav ul li{
 nav ul li a {
    margin: 0 60px 0 60px;
    padding:0;
-   // border: 1px solid black;
    font-family: 'Montserrat', sans-serif;
    font-weight: 400;
    color: $color-big-o;
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      margin:0;
+      padding-left: 20px;
+      padding-right:20px;
+   }
 }
 
 nav div{
@@ -107,22 +111,46 @@ nav div{
    margin-top: 100px;
    height: 200px;
    width: (15 * $grid--unit);
-   // position:relative;
    background:$gold url('../img/yellow-shoe.png')fixed 0 0 / 500px 500px;
    padding-top:200px;
    border-radius:90px;
+
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: (10.25 * $grid--unit);
+      height:30px;
+   }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: auto;
+      height:20px;
+      margin-top: 80px;
+   }
 }
 
 .text{
    color: $color-big-o;;
-   // position: relative;
    position:relative;
    right:-190px;
    top:-110px;
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      right:-100px;
+      top:-160px;
+   }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      right:-55px;
+   }
 }
 
 .project-name{
    font: 10rem/1'Playfair Display', serif;
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      font: 6rem/1'Playfair Display', serif;
+   }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+
+   }
 }
 .type-of-project{
     font:1rem/1 'Montserrat', sans-serif;
@@ -138,22 +166,23 @@ nav div{
 
 .image-section{
    background-color:$gold;
-   // display: flex;
-   // background-color:$BG-color;
    height: 1380px;
    width: (15 * $grid--unit);
    margin:auto;
    margin-top:35px;
-   // padding-top:200px;
    border-radius:90px;
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: (10.25 * $grid--unit);
+   }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: auto;
+   }
 
 }
 
 .sqaure-images{
-   // position: absolute;
    display: flex;
-   // border: 0;
-   // margin: auto;
    line-height: 0;
    display: inline-block;
    border: 0;
@@ -165,18 +194,19 @@ nav div{
 .square{
    line-height: 0;
 
-
-   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      width: auto;
-   }
+   //
+   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+   //    width: auto;
+   // }
 
    img {
-      display: block;
+      // display: block;
       width:(7.5 * $grid--unit);
       height:(7.5 * $grid--unit);
 
       @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-         display: inline;
+         float:left;
+
       }
 
       @media (max-width: ($breakpoint--tablet + $grid--unit)) {
