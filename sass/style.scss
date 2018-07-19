@@ -108,13 +108,13 @@ nav div{
    height: 200px;
    width: (15 * $grid--unit);
    // position:relative;
-   background:rgb(255,215,1)url('../img/yellow-shoe.png')fixed 0 0 / 500px 500px;
+   background:$gold url('../img/yellow-shoe.png')fixed 0 0 / 500px 500px;
    padding-top:200px;
    border-radius:90px;
 }
 
 .text{
-   color:$color-big-o;
+   color: $color-big-o;;
    // position: relative;
    position:relative;
    right:-190px;
@@ -123,29 +123,30 @@ nav div{
 
 .project-name{
    font: 10rem/1'Playfair Display', serif;
-   color: black;
 }
 .type-of-project{
     font:1rem/1 'Montserrat', sans-serif;
    line-height: 2;
     position:relative;
     right:-7px;
-    color:black;
 }
 .number-of-project{
    font:1rem/1 'Montserrat', sans-serif;
-   color:black;
    position:relative;
    right:-7px;
 }
 
 .image-section{
+   background-color:$gold;
    // display: flex;
-   background-color:$BG-color;
-   height: 6000px;
+   // background-color:$BG-color;
+   height: 1380px;
    width: (15 * $grid--unit);
    margin:auto;
    margin-top:35px;
+   // padding-top:200px;
+   border-radius:90px;
+
 }
 
 .sqaure-images{
@@ -158,29 +159,28 @@ nav div{
    border: 0;
    width: (15 * $grid--unit);
    margin:auto;
+   margin-top:8%;
 }
 
 .square{
-   // width: (5 * $grid--unit);
    line-height: 0;
 
 
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    width: auto;
-   // }
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: auto;
+   }
 
    img {
       display: block;
       width:(7.5 * $grid--unit);
       height:(7.5 * $grid--unit);
-      // width: (5 * $grid--unit);
-      //
-      // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      //    display: inline;
-      // }
-      //
-      // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-      //    width: 100%;
-      // }
+
+      @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+         display: inline;
+      }
+
+      @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+         width: 100%;
+      }
    }
 }
