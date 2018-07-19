@@ -45,11 +45,13 @@ nav{
    position: sticky;
    top: 0px;
    height:0;
+   z-index: 1000;
 }
 
 .navbar{
-   position: sticky;
+   // position: sticky;
    top: 0px;
+
    // width: 100%;
 }
 
@@ -58,7 +60,7 @@ nav ul{
    text-align: center;
    position: relative;
    bottom:40px;
-   background-color: rgba(233,233,233,0.5);
+   background-color: rgba(233,233,233,0.9);
    padding-top:7px;
    padding-bottom:9px;
 
@@ -89,9 +91,18 @@ nav div{
    top:-447px;
 }
 
-
-
 .shoe-design{
-   height: 2000px;
+   margin:auto;
    background-color:$BG-color;
+   height: 2000px;
+   width: (15 * $grid--unit);
+   padding-top:200px;
+   background:url('../img/shelving-system.jpg') no-repeat fixed;
+   margin-top:100px;
+   background-position:240px 220px;
+}
+
+.shoe-design img{
+   position: absolute;
+   height: 600px;
 }
