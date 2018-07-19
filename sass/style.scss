@@ -109,17 +109,23 @@ nav div{
    margin-top: 100px;
    height: 800px;
    width: (15 * $grid--unit);
+}
+
+main section:nth-child(1){
+   position:relative;
    background:rgb(255,215,1) url('../img/shoedesign-cover.jpg') no-repeat fixed (2 * $grid--unit) 50% / 500px 500px;
    padding-top:200px;
-
    border-radius:90px;
 }
 
-.shoe-design p{
-   position: static;
-}
+// .shoe-design div{
+//    height:1000px;
+//    background-image: url('../img/shoedesign-cover.jpg') ;
+//    z-index: 20;
+// }
 
 .shoe-design img{
    position: absolute;
    right:auto;
+
 }
