@@ -144,7 +144,9 @@ nav div{
 
 
 .image-section{
+   display: flex;
    background-color:$BG-color;
    height: 6000px;
    margin-top:35px;
+   line-height: 0;
 }
