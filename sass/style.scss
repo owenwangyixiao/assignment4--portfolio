@@ -139,14 +139,48 @@ nav div{
    right:-7px;
 }
 
-
-
-
-
 .image-section{
-   display: flex;
+   // display: flex;
    background-color:$BG-color;
    height: 6000px;
+   width: (15 * $grid--unit);
+   margin:auto;
    margin-top:35px;
+}
+
+.sqaure-images{
+   // position: absolute;
+   display: flex;
+   // border: 0;
+   // margin: auto;
    line-height: 0;
+   display: inline-block;
+   border: 0;
+   width: (15 * $grid--unit);
+   margin:auto;
+}
+
+.square{
+   // width: (5 * $grid--unit);
+   line-height: 0;
+
+
+   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+   //    width: auto;
+   // }
+
+   img {
+      display: block;
+      width:(7.5 * $grid--unit);
+      height:(7.5 * $grid--unit);
+      // width: (5 * $grid--unit);
+      //
+      // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      //    display: inline;
+      // }
+      //
+      // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      //    width: 100%;
+      // }
+   }
 }
