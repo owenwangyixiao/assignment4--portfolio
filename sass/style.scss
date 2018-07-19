@@ -42,7 +42,7 @@ abbr{
 }
 
 nav{
-   margin:auto;
+   height:0;
 }
 
 nav ul{
@@ -79,5 +79,9 @@ nav div{
    position: relative;
    text-align: center;
    top:-447px;
+}
 
+.shoe-design{
+   height: 2000px;
+   background-color:$BG-color;
 }
