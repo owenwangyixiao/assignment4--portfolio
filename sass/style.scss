@@ -117,14 +117,21 @@ nav div{
    color:$color-big-o;
    // position: relative;
    position:relative;
-   right:-100px;
+   right:-190px;
    top:-130px;
 }
 
 .project-name{
-   font:8rem/1 'Montserrat', sans-serif;
+   font: 10rem/1'Playfair Display', serif;
 }
+.type-of-project{
+    font:1rem/1 'Montserrat', sans-serif;;
+   line-height: 2;
+    position:relative;
+}
+.number-of-project{
 
+}
 
 
 
