@@ -9,6 +9,7 @@
 } */
 
 a{
+   transition: cubic-bezier(.17,.67,.83,.67)70ms;
    text-decoration:none;
 }
 /* .label {
@@ -38,13 +39,13 @@ a:visited{
 
 }
 
-a:hover{
+nav a:hover{
    position: relative;
    left:-4px;
-   color: black;
+   color: rgba(255,215,1);
 }
 
 
-a:active{
-
+nav a:active{
+   border-top: 1.5px solid red;
 }
