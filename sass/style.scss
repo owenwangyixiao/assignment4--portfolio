@@ -105,16 +105,21 @@ nav div{
 .shoe-design{
    margin:auto;
    // background-color:$BG-color;
-   margin-top: 63px;
-   height: 2000px;
+   margin-top: 100px;
+   height: 800px;
    width: (15 * $grid--unit);
    padding-top:200px;
-   background: $BG-color url('../img/shoedesign-cover.jpg') no-repeat fixed (4.63*$grid--unit) 50% / 500px 500px;
-   border:40px solid white;
+   background: rgb(255,215,1) url('../img/shoedesign-cover.jpg') no-repeat fixed (2 * $grid--unit) 50% / 500px 500px;
    border-radius:90px;
+}
+
+.shoe-design p{
+   position: absolute;
+
+
 }
 
 .shoe-design img{
    position: absolute;
-   height: 600px;
+   right:auto;
 }
