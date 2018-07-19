@@ -107,18 +107,25 @@ nav div{
    margin-top: 100px;
    height: 200px;
    width: (15 * $grid--unit);
-   position:relative;
-   background:rgb(255,215,1)url('../img/yellow-shoe.png')fixed (2 * $grid--unit) 50% / 500px 500px;
+   // position:relative;
+   background:rgb(255,215,1)url('../img/yellow-shoe.png')fixed 0 0 / 500px 500px;
    padding-top:200px;
    border-radius:90px;
 }
 
 main section:nth-child(1) div:nth-child(1){
    color:$color-big-o;
-   text-align: left;
-   // display: inline-block;
-   // margin-left: (-2* $grid--unit);
+   // padding-left: 1020px;
 }
+
+
+
+
+
+
+
+
+
 
 
 main section:nth-child(1) div:nth-child(2){
