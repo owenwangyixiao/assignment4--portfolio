@@ -116,8 +116,14 @@ nav div{
 }
 
 
-.shoe-design div img:nth-child(2){
-   display: float;
-   position: relative;
-   bottom:-4px;
+// .shoe-design div img:nth-child(2){
+//    display: float;
+//    position: relative;
+//    bottom:-4px;
+// }
+
+.shoe-design div:nth-child(2){
+   height: 1000px;
+   background-color:$BG-color;
+   margin-top:35px;
 }
