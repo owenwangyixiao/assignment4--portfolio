@@ -118,19 +118,25 @@ nav div{
    // position: relative;
    position:relative;
    right:-190px;
-   top:-130px;
+   top:-110px;
 }
 
 .project-name{
    font: 10rem/1'Playfair Display', serif;
+   color: black;
 }
 .type-of-project{
-    font:1rem/1 'Montserrat', sans-serif;;
+    font:1rem/1 'Montserrat', sans-serif;
    line-height: 2;
     position:relative;
+    right:-7px;
+    color:black;
 }
 .number-of-project{
-
+   font:1rem/1 'Montserrat', sans-serif;
+   color:black;
+   position:relative;
+   right:-7px;
 }
 
 
