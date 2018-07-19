@@ -97,8 +97,8 @@ nav div{
    height: 2000px;
    width: (15 * $grid--unit);
    padding-top:200px;
-   background:url('../img/shelving-system.jpg') no-repeat fixed;
-   margin-top:100px;
+   background-image: url('../img/shelving-system.jpg') no-repeat fixed;
+   margin-top:40px;
    background-position:240px 220px;
 }
 
