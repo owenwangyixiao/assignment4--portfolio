@@ -103,9 +103,7 @@ nav div{
 }
 
 .shoe-design div:nth-child(1){
-   // position:absolute;
    margin:auto;
-   // background-color:$BG-color;
    margin-top: 100px;
    height: 200px;
    width: (15 * $grid--unit);
@@ -115,15 +113,20 @@ nav div{
    border-radius:90px;
 }
 
+main section:nth-child(1) div:nth-child(1){
+   color:$color-big-o;
+   text-align: left;
+   // display: inline-block;
+   // margin-left: (-2* $grid--unit);
+}
 
-// .shoe-design div img:nth-child(2){
-//    display: float;
-//    position: relative;
-//    bottom:-4px;
-// }
 
-.shoe-design div:nth-child(2){
-   height: 1000px;
+main section:nth-child(1) div:nth-child(2){
    background-color:$BG-color;
+   height: 1000px;
    margin-top:35px;
 }
+
+// section:nth-child(1) div h1{
+//    font-size: 100px;
+// }
