@@ -42,7 +42,15 @@ abbr{
 }
 
 nav{
+   position: sticky;
+   top: 0px;
    height:0;
+}
+
+.navbar{
+   position: sticky;
+   top: 0px;
+   // width: 100%;
 }
 
 nav ul{
@@ -80,6 +88,8 @@ nav div{
    text-align: center;
    top:-447px;
 }
+
+
 
 .shoe-design{
    height: 2000px;
