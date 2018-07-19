@@ -103,20 +103,20 @@ nav div{
 }
 
 .shoe-design{
+   // position:absolute;
    margin:auto;
    // background-color:$BG-color;
    margin-top: 100px;
    height: 800px;
    width: (15 * $grid--unit);
+   background:rgb(255,215,1) url('../img/shoedesign-cover.jpg') no-repeat fixed (2 * $grid--unit) 50% / 500px 500px;
    padding-top:200px;
-   background: rgb(255,215,1) url('../img/shoedesign-cover.jpg') no-repeat fixed (2 * $grid--unit) 50% / 500px 500px;
+
    border-radius:90px;
 }
 
 .shoe-design p{
-   position: absolute;
-
-
+   position: static;
 }
 
 .shoe-design img{
