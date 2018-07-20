@@ -218,7 +218,10 @@ img {
       }
 
       @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-      width: 70%;
-      height:70%;
+      width: 80%;
+      height:80%;
+      border:10px solid red;
+      border-radius:30px;
+      margin-bottom: 10px;
       }
    }
