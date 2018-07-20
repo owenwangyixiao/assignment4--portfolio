@@ -117,13 +117,16 @@ nav div{
 
    @media (max-width: ($breakpoint--desktop + $grid--unit)) {
       width: (10.25 * $grid--unit);
-      height:30px;
+      height:150px;
+      padding-top:0;
+      border-radius:60px;
    }
 
    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
       width: auto;
-      height:20px;
+      height:50px;
       margin-top: 80px;
+      border-radius:30px;
    }
 }
 
@@ -134,7 +137,7 @@ nav div{
    top:-110px;
    @media (max-width: ($breakpoint--desktop + $grid--unit)) {
       right:-100px;
-      top:-160px;
+      top:0;
    }
 
    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
@@ -149,6 +152,7 @@ nav div{
    }
 
    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      font: 3rem/1'Playfair Display', serif;
    }
 }
 .type-of-project{
@@ -156,11 +160,19 @@ nav div{
    line-height: 2;
     position:relative;
     right:-7px;
+    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      top:-25px;
+      right:-160px
+   }
 }
 .number-of-project{
    font:1rem/1 'Montserrat', sans-serif;
    position:relative;
    right:-7px;
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+     top:-48px;
+     right:-640px
+  }
 }
 
 .image-section{
@@ -173,53 +185,40 @@ nav div{
    border-radius:90px;
    @media (max-width: ($breakpoint--desktop + $grid--unit)) {
       width: (10.25 * $grid--unit);
+      border-radius:60px;
    }
 
    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
       width: auto;
+      border-radius:30px;
    }
 }
+
+
+
+
+
+
+
+
 
 .sqaure-images{
-   display: flex;
    line-height: 0;
    display: inline-block;
-   // width: (15 * $grid--unit);
-   // margin:auto;
    margin-top:8%;
-
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    position:absolute;
-   //    display: block;
-   //    width:2px;
-   //    float: left;
-   //    // left:-50%;
-   //    }
-
-   // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-   //       width: 100%;
-   //    }
 }
 
-.square{
 
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    width: auto;
-   // }
+img {
+      width:600px;
+      height:600px;
+      @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width:(5.125 * $grid--unit);
+      height:(5.125 * $grid--unit);
+      }
 
-   img {
-      // display: block;
-      position: absolute;
-      width:200px;
-      height:200px;
-      //
-      // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      //    float:left;
-      //
-      // }
-      //
-      // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-      //    width: 100%;
-      // }
+      @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      width: 70%;
+      height:70%;
+      }
    }
-}
