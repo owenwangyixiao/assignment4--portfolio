@@ -164,7 +164,8 @@ nav div{
 }
 
 .image-section{
-   background-color:$gold;
+   background-color:black;
+   // $gold;
    height: 1380px;
    width: (15 * $grid--unit);
    margin:auto;
@@ -177,7 +178,6 @@ nav div{
    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
       width: auto;
    }
-
 }
 
 .sqaure-images{
@@ -188,26 +188,24 @@ nav div{
    // margin:auto;
    margin-top:8%;
 
-   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      position:absolute;
-      display: block;
-      width:2px;
-      float: left;
-      // left:-50%;
+   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+   //    position:absolute;
+   //    display: block;
+   //    width:2px;
+   //    float: left;
+   //    // left:-50%;
+   //    }
 
-
-      }
-
-   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-         width: 100%;
-      }
+   // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+   //       width: 100%;
+   //    }
 }
 
 .square{
 
-   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-      width: auto;
-   }
+   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+   //    width: auto;
+   // }
 
    img {
       // display: block;
