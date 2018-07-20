@@ -149,7 +149,6 @@ nav div{
    }
 
    @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-
    }
 }
 .type-of-project{
@@ -185,32 +184,44 @@ nav div{
    display: flex;
    line-height: 0;
    display: inline-block;
-   border: 0;
-   width: (15 * $grid--unit);
-   margin:auto;
+   // width: (15 * $grid--unit);
+   // margin:auto;
    margin-top:8%;
+
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      position:absolute;
+      display: block;
+      width:2px;
+      float: left;
+      // left:-50%;
+
+
+      }
+
+   @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+         width: 100%;
+      }
 }
 
 .square{
-   line-height: 0;
 
-   //
-   // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-   //    width: auto;
-   // }
+   @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      width: auto;
+   }
 
    img {
       // display: block;
-      width:(7.5 * $grid--unit);
-      height:(7.5 * $grid--unit);
-
-      @media (max-width: ($breakpoint--desktop + $grid--unit)) {
-         float:left;
-
-      }
-
-      @media (max-width: ($breakpoint--tablet + $grid--unit)) {
-         width: 100%;
-      }
+      position: absolute;
+      width:200px;
+      height:200px;
+      //
+      // @media (max-width: ($breakpoint--desktop + $grid--unit)) {
+      //    float:left;
+      //
+      // }
+      //
+      // @media (max-width: ($breakpoint--tablet + $grid--unit)) {
+      //    width: 100%;
+      // }
    }
 }
